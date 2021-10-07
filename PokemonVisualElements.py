@@ -188,15 +188,24 @@ def load_images(number_of_images, path_man_player_animations, name, extension, v
     images_list = []
     if version == 1:
         for i in range(0, number_of_images):
-            images_list.append(pygame.image.load(os.path.join(path_man_player_animations + name + "_" + str(i) + "." + extension)))
+            images_list.append(pygame.image.load(os.path.join(path_man_player_animations + name +
+                                                              "_" + str(i) + "." + extension)))
     elif version == 2:
         for i in range(0, number_of_images):
             if i <= 9:
-                images_list.append(pygame.image.load(os.path.join(path_man_player_animations + name + "_" + "0" + str(i) + "." + extension)))
+                images_list.append(pygame.image.load(os.path.join(path_man_player_animations + name +
+                                                                  "_" + "0" + str(i) + "." + extension)))
             else:
-                images_list.append(pygame.image.load(os.path.join(path_man_player_animations + name + "_" + str(i) + "." + extension)))
+                images_list.append(pygame.image.load(os.path.join(path_man_player_animations + name +
+                                                                  "_" + str(i) + "." + extension)))
 
     return images_list
+
+
+def type_text(text, text_x, text_y, size, color):
+    font = pygame.font.SysFont("Arial", size)
+    rend = font.render(text, True, color)
+    screen.blit(rend, (text_x, text_y))
 
 
 class HeldItemIcon:
