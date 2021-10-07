@@ -1,17 +1,17 @@
 from PokemonMechanics import *
 
 def main():
-     path_NPC = "C:/Users/Admin/PycharmProjects/Pokemon/NPCs/"
-     path_audio = "C:/Users/Admin/PycharmProjects/Pokemon/audio/"
-     path_moves_animation = "C:/Users/Admin/PycharmProjects/Pokemon/moves_animation/"
-     path_items = "C:/Users/Admin/PycharmProjects/Pokemon/Items/"
-     path_pokemons = "C:/Users/Admin/PycharmProjects/Pokemon/Pokemons/"
-     path_exp_bar = "C:/Users/Admin/PycharmProjects/Pokemon/exp_bar/"
-     path_hp_bar = "C:/Users/Admin/PycharmProjects/Pokemon/hp_bar/"
-     path_structures = "C:/Users/Admin/PycharmProjects/Pokemon/structures/"
-     path_moves_animations = "C:/Users/Admin/PycharmProjects/Pokemon/moves_animations/"
-     path_boy_player_animations = "C:/Users/Admin/PycharmProjects/Pokemon/boy/"
-     path_visual_elements = "C:/Users/Admin/PycharmProjects/Pokemon/visual_elements/"
+     path_NPC = "NPCs/"
+     path_audio = "audio/"
+     path_moves_animation = "moves_animation/"
+     path_items = "Items/"
+     path_pokemons = "Pokemons/"
+     path_exp_bar = "exp_bar/"
+     path_hp_bar = "hp_bar/"
+     path_structures = "structures/"
+     path_moves_animations = "moves_animations/"
+     path_boy_player_animations = "boy/"
+     path_visual_elements = "visual_elements/"
 
      pygame.init()
      size = width, height = 640, 480

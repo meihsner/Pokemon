@@ -685,6 +685,9 @@ def game(player, screen, path_NPC, path_audio, path_moves_animation, path_items,
         time = datetime.now().time()
         time = time.strftime("%H:%M:%S")
         for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     pygame.quit()
