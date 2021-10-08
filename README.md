@@ -1,16 +1,16 @@
 # Pokemon (suspended)
-One of the holiday projects aimed at recreating the popular game called Pokemon.
-The main goal of the project was to broaden the knowledge about object-oriented programming and an attempt to implement most of the mechanics from the LeafGreen series.
+One of the holiday projects aimed at recreating the popular game called "Pokemon".
+The main goal of the project was to broaden the knowledge about object-oriented programming and an attempt to implement most of the mechanics from the "LeafGreen" series.
 
 The game currently offers:
-- one map (Pallet town) -- in the development phase
-- nine items (Balls, Potions and Map)
-- four pokemons (Charmander, Bulbasaur, Squirtle and Pidgey)
-- nine attacks (basic attacks of the mentioned pokemons)
-- most of the available player menu (including the pokemon menu)
-- pokemon combat
-- catching creatures
-- and a few smaller mechanics
+- one map (Pallet town) -- in the development phase,
+- nine items (Balls, Potions and Map),
+- four pokemons (Charmander, Bulbasaur, Squirtle and Pidgey),
+- nine attacks (basic attacks of the mentioned pokemons),
+- most of the available player menu (including the pokemon menu),
+- pokemon combat,
+- catching creatures,
+- and a few smaller mechanics.
 
 Mechanics and patterns were implemented thanks to the website:<br />
 https://bulbapedia.bulbagarden.net/wiki/Main_Page<br />
@@ -54,4 +54,4 @@ https://www.youtube.com/watch?v=nXlyaAjC3P8&list=PLMvG7kcJiPGhjCHmmx4gcd7S47oBVK
 # Do you want to check how the current state of the application works?
 - Download the zipped folder from the link: https://drive.google.com/drive/folders/1i0yuIFjqfsdQ9WSn23LDAB4_bU1VZNyB?usp=sharing,
 - Run the file: `Pokemon\dist\main.exe`,
-- Submit feedback on the activity.
+- Submit feedback.
