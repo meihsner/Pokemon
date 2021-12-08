@@ -151,22 +151,7 @@ class Pokeball:
 
 class Badge:
     def __init__(self, variant, path_items):
-        if variant == 1:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_1.png"))
-        elif variant == 2:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_2.png"))
-        elif variant == 3:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_3.png"))
-        elif variant == 4:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_4.png"))
-        elif variant == 5:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_5.png"))
-        elif variant == 6:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_6.png"))
-        elif variant == 7:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_7.png"))
-        elif variant == 8:
-            self.graphics = pygame.image.load(os.path.join(path_items, "badge_8.png"))
+        self.graphics = pygame.image.load(os.path.join(path_items, "badge_{}.png".format(variant)))
 
     def draw(self, x, y, screen):
         screen.blit(self.graphics, (x, y))
